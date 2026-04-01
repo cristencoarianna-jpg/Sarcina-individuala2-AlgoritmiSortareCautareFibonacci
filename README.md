@@ -1,8 +1,13 @@
 
 N		100	1000	10000	100000
+
+
 Metoda de sortare 1:
+
 Bubble Sort	0.000000 secunde	0.003000 secunde	0.153000 secunde	24.729000 secunde
+
 Metoda de sortare 2:
+
 Quick Sort	0.000000 secunde	0.000000 secunde	0.001000 secunde	0.009000 secunde
 
 În urma analizei empirice, se observă că algoritmul Bubble Sort are un timp de execuție care crește foarte rapid odată cu dimensiunea vectorului, devenind ineficient pentru valori mari ale lui N.
@@ -13,7 +18,9 @@ Această diferență se datorează complexității algoritmilor: O(n²) pentru B
 
 
 N	100	1000	10000	100000
+
 Linear Search	0.117000	0.788000	6.689000	24.896000
+
 Binary Search	0.072000	0.111000	0.132000	0.1381000
 
 
@@ -23,6 +30,7 @@ Prin urmare, Binary Search este mult mai eficient decât Linear Search pentru ta
 
 
 N	            50	     100	     1000	   10000	   100000	   1000000
+
 Fibonacci	0.000000	0.000000	0.000000	0.001000	0.046000	4.942000
 
 
